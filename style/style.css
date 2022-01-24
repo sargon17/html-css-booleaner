@@ -1,13 +1,15 @@
 *{
-    font-family: "Montserrat", "Arial", sans-serif ;
+    font-family: "Verdana","Arial", sans-serif ;
     font-size: 18px;
 }
 body{
     margin: 0%;
+    margin-bottom: 20px;
 }
 
 h1{
     font-size: 30px;
+    margin-bottom: 0;
 }
 
 header{
@@ -15,10 +17,18 @@ header{
     background-size: 25%;
     height: 10vh;
     display: flex;
+    justify-content: center;
 }
 
-header > img{
-    margin: auto auto 0 10px;
+.logo-wrapper{
+    display: flex;
+    width: 60vw;
+}
+
+
+
+.logo-wrapper img{
+    margin: auto auto 0 0;
 }
 main{
     width: 100vw;
@@ -26,16 +36,71 @@ main{
     justify-content: center;
 }
 main > .main-wrapper{
-    width: 70vw;
+    width: 60vw;
+}
+section{
+    margin: 30px 0;
 }
 
-
+.title-wrapper{
+    margin: 20px 0;
+}
 .title-wrapper p {
     margin: 0;
-    font-size: 0.8rem;
     font-weight: 600;
     color: gray;
 }
+
 .writing-data{
-    font-size: 8px;
+    font-size: 11px;
+}
+
+.img-wrapper{
+    margin: 10px 0 0 0;
+    display: flex;
+    gap: 5px;
+}
+.photo-description{
+    margin: 0px;
+    font-size: 0.8em;
+}
+
+thead{
+    background: rgb(94, 143, 216);
+    color: white;
+}
+th{
+    text-align: left;
+}
+
+.width-table{
+    width: 25%;
+}
+.color-blue{
+    background: lightblue;
+}
+
+.evidenzia{
+    background-color: yellow;
+}
+
+
+footer h3{
+    color: grey;
+}
+
+.footer-wrapper{
+    width: 25%;
+    height: 180px;
+    background-color: grey;
+    color: white;
+}
+.footer-wrapper h4 {
+    margin: 10px;
+}
+.bg-1{
+    background: url("../img/monitor.jpg");
+}
+.bg-2{
+    background: url("../img/graph.jpg");
 }
