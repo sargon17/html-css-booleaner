@@ -1,0 +1,41 @@
+*{
+    font-family: "Montserrat", "Arial", sans-serif ;
+    font-size: 18px;
+}
+body{
+    margin: 0%;
+}
+
+h1{
+    font-size: 30px;
+}
+
+header{
+    background: rgb(55, 132, 204) url("../img/pattern.png") repeat-x;
+    background-size: 25%;
+    height: 10vh;
+    display: flex;
+}
+
+header > img{
+    margin: auto auto 0 10px;
+}
+main{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+main > .main-wrapper{
+    width: 70vw;
+}
+
+
+.title-wrapper p {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: gray;
+}
+.writing-data{
+    font-size: 8px;
+}
